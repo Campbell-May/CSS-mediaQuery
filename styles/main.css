@@ -1,0 +1,40 @@
+h1 {
+font-size: 100px;
+  
+}
+
+@media (min-width: 1200px){
+.flexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  justify-content: space-around;
+}}
+
+@media (min-width: 768px)
+ and (max-width:1200px){
+  .flexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rebeccapurple;
+    justify-content: space-around;
+  }}
+
+
+  @media (min-width: 320px)
+ and (max-width:768px){
+  .flexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: red;
+    justify-content: right;
+  }}
+
+
+  @media (max-width:320px){
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    justify-content: space-around;
+  }}
